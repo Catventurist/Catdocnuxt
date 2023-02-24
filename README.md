@@ -1,14 +1,24 @@
-# Docus Starter
+## Catdocs
 
-Starter template for [Docus](https://docus.dev).
+- Documentation of a cat-themed project using [VSCodium](https://vscodium.com/).
+- Forkable on [Github](https://github.com/Catventurist/Catdocnuxt).
+- Based on [Docus](https://docus.dev) template. 
 
-## Clone
+## Adjustments
 
-Clone the repository (using `nuxi`):
-
+- Disabled telemetry on `nuxt.config.ts`:
 ```bash
-npx nuxi init -t themes/docus
+telemetry: false
 ```
+- Changed **pinceau** color scheme on `tokens.config.ts`:
+```bash
+primary: palette('purple')
+```
+- Disable formatting on `0.index.md` breaking the **block-hero** component.
+
+## Guides
+
+More info can be found on the `.md` document pages.
 
 ## Setup
 
