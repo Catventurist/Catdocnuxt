@@ -6,12 +6,12 @@
 
 ## Adjustments
 
-- Disabled telemetry on `nuxt.config.ts`:
-```bash
+- Disable telemetry on `nuxt.config.ts`:
+```bash [js]
 telemetry: false
 ```
-- Changed **pinceau** color scheme on `tokens.config.ts`:
-```bash
+- Change **pinceau** color scheme on `tokens.config.ts`:
+```bash [js]
 primary: palette('purple')
 ```
 - Disable formatting on `0.index.md` breaking the **block-hero** component.
