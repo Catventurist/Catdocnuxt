@@ -23,12 +23,24 @@ export default defineAppConfig({
       exclude: []
     },
     footer: {
+      credits: {
+        icon: 'IconDocus',
+        text: 'Made with 💕',
+        href: 'https://docus.com'
+      },
       iconLinks: [
         {
           href: 'https://nuxt.com',
-          icon: 'IconNuxtLabs'
+          icon: 'IconNuxt'
         }
       ]
+    },
+    github: {
+      dir: 'content',
+      branch: 'main',
+      repo: 'Catdocnuxt',
+      owner: 'Catventurist',
+      edit: false
     }
   }
 })

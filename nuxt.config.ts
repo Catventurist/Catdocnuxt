@@ -3,5 +3,5 @@ export default defineNuxtConfig({
   extends: '@nuxt-themes/docus',
   app: {
     pageTransition: { name: 'page', mode: 'out-in' }
-  },
+  }
 })

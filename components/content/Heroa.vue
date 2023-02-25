@@ -20,7 +20,7 @@ defineProps({
 </script>
 
 <template>
-  <section v-if="title || $slots.title" class="hero">
+  <section v-if="title || $slots.title" class="ahero">
     <div class="layout">
       <div class="content">
         <div class="title">
@@ -34,18 +34,18 @@ defineProps({
         v-if="image"
         :class="[imagePosition]"
         :src="image"
-        alt=":("
+        alt=":D"
       >
     </div>
   </section>
   <p v-else>
-    :( a hero block must have a title !
+    a hero block must have a title !
   </p>
 </template>
 
 <style scoped lang="ts">
 css({
-  '.hero': {
+  '.ahero': {
     '.layout': {
       display: 'grid',
       gridTemplateColumns: 'repeat(1, minmax(0, 1fr))',

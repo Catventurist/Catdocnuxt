@@ -12,12 +12,13 @@ defineProps({
 <template>
   <section class="gallery">
     <div
-      class="layout"
+      class="layoutg"
     >
       <img
         v-for="(image, index) in images"
         :key="index"
         :src="image"
+        
       >
     </div>
   </section>
@@ -26,7 +27,7 @@ defineProps({
 <style scoped lang="ts">
 css({
   '.gallery': {
-    '.layout': {
+    '.layoutg': {
       display: 'grid',
       gap: '{space.8}',
       my: '{space.16}',
@@ -39,9 +40,9 @@ css({
         objectFit: 'cover',
         width: '100%',
         aspectRatio: '16 / 9',
-        borderRadius: '{radii.md}'
+        borderRadius: '{radii.md}'        
       }
-    }
+    },
   }
 })
 </style>
